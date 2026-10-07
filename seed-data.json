@@ -1,0 +1,53 @@
+{
+  "departments": [
+    {"name":"AI&DS","code":"AIDS","hod":"Dr. R. Lakshmi","description":"Artificial Intelligence and Data Science"},
+    {"name":"CSE","code":"CSE","hod":"Dr. K. Prasad","description":"Computer Science and Engineering"},
+    {"name":"ECE","code":"ECE","hod":"Dr. S. Meena","description":"Electronics and Communication"}
+  ],
+  "faculty": [
+    {"name":"Dr. R. Lakshmi","facultyId":"F001","dept":"AI&DS","designation":"HOD & Professor","email":"lakshmi@demo.edu","phone":"9000000001","subjects":"Machine Learning","office":"Block B-101"},
+    {"name":"Mr. V. Kiran","facultyId":"F002","dept":"AI&DS","designation":"Assistant Professor","email":"kiran@demo.edu","phone":"9000000002","subjects":"Multi-Agent Systems","office":"Block B-105"}
+  ],
+  "classrooms": [
+    {"building":"Block B","room":"204","floor":"2","capacity":"60","dept":"AI&DS","type":"Lecture hall","facilities":"Projector, AC"},
+    {"building":"Block A","room":"204","floor":"2","capacity":"60","dept":"CSE","type":"Lecture hall","facilities":"Projector"}
+  ],
+  "timetable": [
+    {"dept":"AI&DS","year":"3","section":"A","day":"Monday","start":"09:00","end":"10:00","subject":"Machine Learning","faculty":"Dr. R. Lakshmi","room":"B-204"},
+    {"dept":"AI&DS","year":"3","section":"A","day":"Wednesday","start":"10:00","end":"11:00","subject":"Multi-Agent Systems","faculty":"Mr. V. Kiran","room":"B-204"},
+    {"dept":"AI&DS","year":"3","section":"A","day":"Wednesday","start":"14:00","end":"15:30","subject":"Data Science Lab","faculty":"Mr. V. Kiran","room":"B-110"},
+    {"dept":"AI&DS","year":"3","section":"A","day":"Wednesday","start":"15:30","end":"16:30","subject":"Deep Learning","faculty":"Dr. R. Lakshmi","room":"B-204"},
+    {"dept":"AI&DS","year":"3","section":"A","day":"Thursday","start":"09:00","end":"10:00","subject":"Machine Learning","faculty":"Dr. R. Lakshmi","room":"B-204"}
+  ],
+  "events": [
+    {"name":"PBL Hackathon Expo","date":"2026-10-15","time":"10:00 AM","venue":"Main Auditorium","description":"Project showcase by all departments","organizer":"AI&DS Dept","registration":"Open"},
+    {"name":"Sports Day","date":"2026-10-22","time":"8:00 AM","venue":"Sports Ground","description":"Inter-department tournaments","organizer":"Physical Education","registration":"Open"}
+  ],
+  "announcements": [
+    {"title":"Mid-term exams schedule","body":"Mid-term exams start 20 Oct. Check Academic Resources for the timetable.","audience":"All students","pinned":"yes"},
+    {"title":"Library extended hours","body":"Library stays open till 8 PM during exam weeks.","audience":"All students","pinned":"no"}
+  ],
+  "resources": [
+    {"title":"AI&DS Previous Question Papers","type":"Question papers","dept":"AI&DS","year":"3","link":"Library > Digital Section","description":"Previous year question papers"}
+  ],
+  "facilities": [
+    {"name":"Central Library","category":"Library","location":"Block A, Ground Floor","timings":"8 AM - 6 PM","description":"Books, digital section, reading hall"},
+    {"name":"College Office","category":"Administrative","location":"Admin Block","timings":"9 AM - 4:30 PM (Mon-Sat)","description":"Fees, certificates, general enquiries"},
+    {"name":"AI&DS Labs","category":"Laboratory","location":"Block B, First Floor","timings":"9 AM - 5 PM","description":"GPU workstations for ML and data science practicals"},
+    {"name":"Canteen","category":"Canteen","location":"Near Main Gate","timings":"8 AM - 5 PM","description":"Breakfast, meals and snacks"},
+    {"name":"Hostel","category":"Hostel","location":"North Campus","timings":"Gate closes 9 PM","description":"Separate blocks with mess and Wi-Fi"},
+    {"name":"Sports Ground","category":"Sports","location":"Behind Block C","timings":"6-8 AM, 4-6 PM","description":"Cricket, football, volleyball"},
+    {"name":"Medical Center","category":"Medical","location":"Admin Block, Ground Floor","timings":"9 AM - 4 PM","description":"First aid and visiting doctor"},
+    {"name":"Transport","category":"Transport","location":"Parking Bay, Main Gate","timings":"Morning and evening routes","description":"College buses"}
+  ],
+  "locations": [
+    {"building":"Block B","location":"AI&DS Lab","floor":"1","room":"B-110","description":"AI & Data Science computing lab","coordinates":"13.0000, 80.0000"},
+    {"building":"Block A","location":"Central Library","floor":"Ground","room":"A-001","description":"Main library and reading hall","coordinates":"13.0001, 80.0001"}
+  ],
+  "faqs": [
+    {"question":"How to get a bonafide certificate?","answer":"Apply at the College Office with your ID card; it is issued in 2 working days."}
+  ],
+  "knowledge": [
+    {"question":"Where is the Central Library?","answer":"The Central Library is located in Block A, Ground Floor."}
+  ]
+}
